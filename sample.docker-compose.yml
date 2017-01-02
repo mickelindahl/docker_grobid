@@ -1,0 +1,6 @@
+nginx-proxy:
+  image: jwilder/nginx-proxy
+  container_name: nginx
+  environment:
+    - "VIRTUAL_HOST=grobid.grassy.se"
+  restart: always
